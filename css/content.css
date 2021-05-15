@@ -1,0 +1,163 @@
+.spotlight {
+    min-height: 300px;
+    background: url('spotlight-background.jpg') no-repeat center;
+    background-size: cover;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.spotlight-heading {
+    padding: 10px;
+    margin: 0px;
+    font-size: 30px;
+    color: #df6c07;
+    text-shadow: 2px 2px black;
+}
+
+.spotlight-subheading {
+    padding: 10px;
+    margin: 0px;
+    font-size: 25px;
+    color: #df6c07;
+    text-shadow: 2px 2px black;
+}
+
+.call{
+    text-decoration: none;
+    color: #4c96d7;
+}
+
+.section-heading {
+    padding: 30px;
+    margin: 0px;
+    text-align: center;
+}
+
+.offers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.offer-logo {
+    width: 200px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.offer-description {
+    margin: 10px;
+}
+
+.offer-title {
+    margin: 10px 0;
+}
+
+.offer-text {
+    margin: 10px 0;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 480px;
+}
+
+form {
+  width: 100%;
+}
+
+form input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+    outline: none;
+    font-size: 18px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+form textarea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+    height: 150px;
+    position: relative;
+    outline: none;
+    font-size: 18px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    border: 0;
+    width: 50%;
+    font-size: 18px;
+    background-color: #df6c07;
+    transition: background-color 0.5s;
+    cursor: pointer;
+    outline: none;
+    align-self: center;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.data {
+    padding: 0 20px 0 20px;
+}
+
+@media all and (min-width: 768px) {
+    .offer {
+        flex-wrap: nowrap;
+        width: 50%
+    }
+    .offers {
+        text-align: left;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .contacts {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
